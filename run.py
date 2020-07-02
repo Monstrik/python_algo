@@ -1,4 +1,25 @@
 # sort
-ls = [64, 25, 12, 22, 11, 90, 5, 1, 3, 4, 2, 0, 9, 6, 8, 7]
-print(ls)
+
 print(" -- Start -- ")
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+
+def factorial_loop(n):
+    if n == 0:
+        return 1
+    f = 1
+    i = 0
+
+    while (i < n):
+        i += 1
+        f = f * i
+    return f
+
+
+print(factorial(5))
+print(factorial_loop(5))
