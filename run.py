@@ -1,6 +1,5 @@
 # sort
 
-print(" -- Start -- ")
 
 
 def factorial(n):
@@ -19,7 +18,9 @@ def factorial_loop(n):
         i += 1
         f = f * i
     return f
+print(" -- Start -- ")
 
 
-print(factorial(5))
-print(factorial_loop(5))
+print(factorial(998))
+print(factorial_loop(7))
+print(" -- Finish -- ")
