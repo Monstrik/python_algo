@@ -1,2 +1,2 @@
 language = "python3"
-run = " clear && python run.py"
+run = " clear && python alec1.py"
